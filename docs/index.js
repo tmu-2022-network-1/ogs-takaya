@@ -20,103 +20,109 @@ window.addEventListener('scroll',function(){
 
   let Backimg = document.getElementById("back-img");
   let hitoimg = document.getElementById("hito-img");
-  let frontimg = document.getElementsByClassName("front-image");
-   console.log(frontimg);
+  
 
-
-   if(scroll <= 12000 ){   
-    frontimg.src = "images/kino.png"
-  }else if(scroll > 12000 && scroll <= 24000){
-    frontimg.src = "images/kris.png"
-  }
-
-  if(scroll <= 7000 ){   
+  if(scroll <= 10000 ){   
     Backimg.src = "images/back.png"
-  }else if(scroll > 7000 && scroll <= 8000){
+  }else if(scroll > 10000 && scroll <= 11000){
     Backimg.src = "images/back2.png"
-  }else if(scroll > 8000 && scroll <= 9000){
+  }else if(scroll > 11000 && scroll <= 12000){
     Backimg.src = "images/back3.png"
-  }else if(scroll > 9000 && scroll <= 10000){
+  }else if(scroll > 12000 && scroll <= 13000){
     Backimg.src = "images/back4.png"
-  }else if(scroll > 10000 && scroll <= 12000){
+  }else if(scroll > 13000 && scroll <= 16000){
     Backimg.src = "images/back5.png"
-  }else if(scroll > 12000 && scroll <= 14000){
+  }else if(scroll > 16000 && scroll <= 21000){
     Backimg.src = "images/krisback5.png"
-  }else if(scroll > 14000 && scroll <= 15000){
+  }else if(scroll > 21000 && scroll <= 22000){
     Backimg.src = "images/krisback4.png"
-  }else if(scroll > 15000 && scroll <= 16000){
+  }else if(scroll > 22000 && scroll <= 24000){
     Backimg.src = "images/krisback3.png"
-  }else if(scroll > 16000 && scroll <= 17000){
+  }else if(scroll > 24000 && scroll <= 26000){
     Backimg.src = "images/krisback2.png"
-  }else if(scroll > 17000 && scroll <= 18000){
+  }else if(scroll > 26000 && scroll <= 27000){
     Backimg.src = "images/krisback.png"
+  }else if(scroll > 30000 && scroll <= 31500){
+    Backimg.src = "images/krisflash1.png"
+  }else if(scroll > 31500 && scroll <= 33000){
+    Backimg.src = "images/krisflash2.png"
+  }else if(scroll > 33000 && scroll <= 34500){
+    Backimg.src = "images/krisflash3.png"
+  }else if(scroll > 34500 && scroll <= 36000){
+    Backimg.src = "images/krisflash4.png"
   }
 
-  if(scroll <= 500 ){   
+  if(scroll <= 1000 ){   
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 500 && scroll <= 1000){
+  }else if(scroll > 1000 && scroll <= 2000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 1000 && scroll <= 1500){
+  }else if(scroll > 2000 && scroll <= 3000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 1500 && scroll <= 2000){
+  }else if(scroll > 3000 && scroll <= 4000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll >2000 && scroll <= 2500){
+  }else if(scroll > 4000 && scroll <= 5000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 2500 && scroll <= 3000){
+  }else if(scroll > 5000 && scroll <= 6000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 3000 && scroll <= 3500){
+  }else if(scroll > 6000 && scroll <= 7000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 3500 && scroll <= 4000){
+  }else if(scroll > 7000 && scroll <= 8000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 4000 && scroll <= 4500){
+  }else if(scroll > 8000 && scroll <= 9000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 4500 && scroll <= 5000){
+  }else if(scroll > 9000 && scroll <= 10000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll >5000 && scroll <= 5500){
+  }else if(scroll > 10000 && scroll <= 11000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 5500 && scroll <= 6000){
+  }else if(scroll > 11000 && scroll <= 12000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 6000 && scroll <= 6500){
+  }else if(scroll > 12000 && scroll <= 13000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 6500 && scroll <= 7000){
+  }else if(scroll > 13000 && scroll <= 14000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 7000 && scroll <= 7500){
+  }else if(scroll > 14000 && scroll <= 15000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 7500 && scroll <= 8000){
+  }else if(scroll > 15000 && scroll <= 16000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 8000 && scroll <= 8500){
+  }else if(scroll > 16000 && scroll <= 17000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 8500 && scroll <= 9000){
+  }else if(scroll > 17000 && scroll <= 18000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 9000 && scroll <= 9500){
+  }else if(scroll > 18000 && scroll <= 19000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 9500 && scroll <= 10000){
+  }else if(scroll > 19000 && scroll <= 20000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 10000 && scroll <= 10500){
+  }else if(scroll > 20000 && scroll <= 21000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 10500 && scroll <= 11000){
+  }else if(scroll > 21000 && scroll <= 22000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 11000 && scroll <= 11500){
+  }else if(scroll > 22000 && scroll <= 23000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 11500 && scroll <= 12000){
+  }else if(scroll > 23000 && scroll <= 24000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 12000 && scroll <= 12500){
+  }else if(scroll > 24000 && scroll <= 25000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 12500 && scroll <= 13000){
-    hitoimg.src = "images/hito2.png"
-  }else if(scroll > 13000 && scroll <= 13500){
+  }else if(scroll > 25000 && scroll <= 26000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 13500 && scroll <= 14000){
+  }else if(scroll > 26000 && scroll <= 27000){
     hitoimg.src = "images/hito2.png"
-  }else if(scroll > 14000 && scroll <= 14500){
-    hitoimg.src = "images/hito2.png"
-  }else if(scroll > 14500 && scroll <= 15000){
+  }else if(scroll > 27000 && scroll <= 28000){
     hitoimg.src = "images/hito.png"
-  }else if(scroll > 15000 && scroll <= 15500){
+  }else if(scroll > 28000 && scroll <= 29000){
+    hitoimg.src = "images/hito2.png"
+  }else if(scroll > 29000 && scroll <= 30000){
+    hitoimg.src = "images/hito.png"
+  }else if(scroll > 30000 && scroll <= 31000){
+    hitoimg.src = "images/hito2.png"
+  }else if(scroll > 31000 && scroll <= 32000){
+    hitoimg.src = "images/hito.png"
+  }else if(scroll > 32000 && scroll <= 33000){
+    hitoimg.src = "images/hito2.png"
+  }else if(scroll > 33000 && scroll <= 34000){
+    hitoimg.src = "images/hito.png"
+  }else if(scroll > 34000 && scroll <= 35000){
     hitoimg.src = "images/hito2.png"
   }
-
-
   
 })
 
