@@ -40,15 +40,15 @@ window.addEventListener('scroll',function(){
     Backimg.src = "images/krisback3.png"
   }else if(scroll > 24000 && scroll <= 26000){
     Backimg.src = "images/krisback2.png"
-  }else if(scroll > 26000 && scroll <= 27000){
+  }else if(scroll > 26000 && scroll <= 34000){
     Backimg.src = "images/krisback.png"
-  }else if(scroll > 30000 && scroll <= 31500){
+  }else if(scroll > 34000 && scroll <= 35000){
     Backimg.src = "images/krisflash1.png"
-  }else if(scroll > 31500 && scroll <= 33000){
+  }else if(scroll > 35000 && scroll <= 36000){
     Backimg.src = "images/krisflash2.png"
-  }else if(scroll > 33000 && scroll <= 34500){
+  }else if(scroll > 36000 && scroll <= 37000){
     Backimg.src = "images/krisflash3.png"
-  }else if(scroll > 34500 && scroll <= 36000){
+  }else if(scroll > 37000 && scroll <= 38000){
     Backimg.src = "images/krisflash4.png"
   }
 
@@ -122,6 +122,12 @@ window.addEventListener('scroll',function(){
     hitoimg.src = "images/hito.png"
   }else if(scroll > 34000 && scroll <= 35000){
     hitoimg.src = "images/hito2.png"
+  }else if(scroll > 35000 && scroll <= 36000){
+    hitoimg.src = "images/hito.png"
+  }else if(scroll > 36000 && scroll <= 37000){
+    hitoimg.src = "images/hito2.png"
+  }else if(scroll > 37000 && scroll <= 38000){
+    hitoimg.src = "images/hito.png"
   }
   
 })
