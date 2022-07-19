@@ -128,6 +128,16 @@ window.addEventListener('scroll',function(){
     hitoimg.src = "images/hito2.png"
   }else if(scroll > 37000 && scroll <= 38000){
     hitoimg.src = "images/hito.png"
+  }else if(scroll > 38000 && scroll <= 39000){
+    hitoimg.src = "images/hito2.png"
+  }else if(scroll > 39000 && scroll <= 40000){
+    hitoimg.src = "images/hitoflash1.png"
+  }else if(scroll > 40000 && scroll <= 41000){
+    hitoimg.src = "images/hitoflash2.png"
+  }else if(scroll > 41000 && scroll <= 42000){
+    hitoimg.src = "images/hitoflash3.png"
+  }else if(scroll > 42000 && scroll <= 43000){
+    hitoimg.src = "images/hitoflash4.png"
   }
   
 })
