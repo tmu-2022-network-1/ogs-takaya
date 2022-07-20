@@ -20,9 +20,31 @@ window.addEventListener('scroll',function(){
 
   let Backimg = document.getElementById("back-img");
   let hitoimg = document.getElementById("hito-img");
-  
+  let textimg = document.getElementById("text-img");
 
-  if(scroll <= 10000 ){   
+
+  if(scroll <= 300){
+    textimg.scr = "images/kuuhaku.png"
+  }else if(scroll > 300 && scroll <= 900 ){   
+    textimg.src = "images/prologue1.png"
+  }else if(scroll > 900 && scroll <= 1500){   
+    textimg.src = "images/prologue2.png"
+  }if(scroll > 1500 && scroll <= 2100){   
+    textimg.src = "images/prologue3.png"
+  }else if(scroll > 2100){   
+    textimg.src = "images/kuuhaku.png"
+  }
+
+
+  if(scroll <= 2000 ){   
+    Backimg.src = "images/back5.png"
+  }else if(scroll > 2000 && scroll <= 3000 ){   
+    Backimg.src = "images/back4.png"
+  }else if(scroll > 3000 && scroll <= 4000){
+    Backimg.src = "images/back3.png"
+  }else if(scroll > 4000 && scroll <= 5000){
+    Backimg.src = "images/back2.png"
+  }else if(scroll > 5000 && scroll <= 10000 ){   
     Backimg.src = "images/back.png"
   }else if(scroll > 10000 && scroll <= 11000){
     Backimg.src = "images/back2.png"

@@ -62,3 +62,13 @@ main {
   width: 100vw;
   overflow-x: scroll;
 }
+
+.text{
+  position: fixed;
+  display: flex;
+  flex: 1;
+  z-index: 500;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: scroll;
+}
