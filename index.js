@@ -9,7 +9,6 @@ function updateScroll(event) {
   image.scrollLeft = document.documentElement.scrollTop * 0.2;
   back.scrollLeft = document.documentElement.scrollTop * 0.03;
 }
-
 document.body.onscroll = updateScroll;
 
 // const scrollNum = document.getElementById('scroll-num');
