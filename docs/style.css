@@ -10,7 +10,7 @@ main {
   margin:0;
 }
 
-#content{
+/* #content{
   height:1000px;
   width:100%;
   background:#009977;
@@ -21,11 +21,11 @@ main {
   z-index: 1000;
   top: 0%;
   left: 0%;
-}
+} */
 
 .bg {
   
-  height: 5800vh;
+  height: 6200vh;
   /* width: 3000vw; */
 }
 

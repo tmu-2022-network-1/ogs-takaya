@@ -12,10 +12,10 @@ function updateScroll(event) {
 
 document.body.onscroll = updateScroll;
 
-const scrollNum = document.getElementById('scroll-num');
+// const scrollNum = document.getElementById('scroll-num');
 
 window.addEventListener('scroll',function(){
-  scrollNum.textContent = window.pageYOffset;
+  // scrollNum.textContent = window.pageYOffset;
   let scroll = window.pageYOffset;
 
   let Backimg = document.getElementById("back-img");
@@ -29,9 +29,17 @@ window.addEventListener('scroll',function(){
     textimg.src = "images/prologue1.png"
   }else if(scroll > 900 && scroll <= 1500){   
     textimg.src = "images/prologue2.png"
-  }if(scroll > 1500 && scroll <= 2100){   
+  }else if(scroll > 1500 && scroll <= 2100){   
     textimg.src = "images/prologue3.png"
-  }else if(scroll > 2100){   
+  }else if(scroll > 2100 && scroll <= 13500){   
+    textimg.src = "images/kuuhaku.png"
+  }else if(scroll > 1400 && scroll <= 15500){   
+    textimg.src = "images/text1.png"
+  }else if(scroll > 15500 && scroll <= 17000){   
+    textimg.src = "images/text2.png"
+  }else if(scroll > 17000 && scroll <= 18500 ){   
+    textimg.src = "images/text3.png"
+  }else if(scroll > 18500){
     textimg.src = "images/kuuhaku.png"
   }
 
@@ -160,6 +168,14 @@ window.addEventListener('scroll',function(){
     hitoimg.src = "images/hitoflash3.png"
   }else if(scroll > 42000 && scroll <= 43000){
     hitoimg.src = "images/hitoflash4.png"
+  }else if(scroll > 43000 && scroll <= 43500){
+    hitoimg.src = "images/about4.png"
+  }else if(scroll > 43500 && scroll <= 44000){
+    hitoimg.src = "images/about3.png"
+  }else if(scroll > 44000 && scroll <= 44500){
+    hitoimg.src = "images/about2.png"
+  }else if(scroll > 44500 && scroll <= 45000){
+    hitoimg.src = "images/about.png"
   }
   
 })
